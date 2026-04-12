@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const contactInfo = [
-  { icon: '📧', label: 'Email Us', value: 'hello@zealhealing.com', link: 'mailto:hello@zealhealing.com' },
+  { icon: '📧', label: 'Email Us', value: 'hello@thetarotqueen.com', link: 'mailto:hello@thetarotqueen.com' },
   { icon: '📞', label: 'Call Us', value: '+91 98400 00000', link: 'tel:+919840000000' },
   { icon: '📍', label: 'Location', value: 'Salem, Tamil Nadu, India', link: '#' },
   { icon: '🕐', label: 'Hours', value: 'Mon–Sat: 9 AM – 7 PM', link: '#' },

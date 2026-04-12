@@ -54,7 +54,7 @@ const About = () => {
             fontFamily: "'Cormorant Garamond', serif",
             color: 'var(--text-main)',
           }}>
-            The Zealhealing <span className="text-gradient">Difference</span>
+            The Tarot Queen <span className="text-gradient">Difference</span>
           </h2>
           <p style={{ color: 'var(--text-muted)', maxWidth: '560px', margin: '0 auto', fontSize: '16px', lineHeight: 1.7 }}>
             We combine ancient wisdom with compassionate care to create transformative experiences for mind, body & spirit.

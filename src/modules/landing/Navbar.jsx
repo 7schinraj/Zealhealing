@@ -3,72 +3,72 @@ import React, { useState, useEffect } from 'react';
 // ─── SVG icon components ───────────────────────────────────────────────────
 const IconHome = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-    <polyline points="9 22 9 12 15 12 15 22"/>
+    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+    <polyline points="9 22 9 12 15 12 15 22" />
   </svg>
 );
 
 const IconStar = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
   </svg>
 );
 
 const IconLeaf = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M17 8C8 10 5.9 16.17 3.82 19.17L2 22l2.5-1C8 19 12.42 18 17 8z"/>
-    <path d="M17 8c0 0 1 8-8 14"/>
+    <path d="M17 8C8 10 5.9 16.17 3.82 19.17L2 22l2.5-1C8 19 12.42 18 17 8z" />
+    <path d="M17 8c0 0 1 8-8 14" />
   </svg>
 );
 
 const IconShop = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
-    <line x1="3" y1="6" x2="21" y2="6"/>
-    <path d="M16 10a4 4 0 0 1-8 0"/>
+    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+    <line x1="3" y1="6" x2="21" y2="6" />
+    <path d="M16 10a4 4 0 0 1-8 0" />
   </svg>
 );
 
 const IconCrystal = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <circle cx="12" cy="12" r="10"/>
-    <line x1="12" y1="2" x2="12" y2="6"/>
-    <line x1="12" y1="18" x2="12" y2="22"/>
-    <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/>
-    <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/>
-    <line x1="2" y1="12" x2="6" y2="12"/>
-    <line x1="18" y1="12" x2="22" y2="12"/>
+    <circle cx="12" cy="12" r="10" />
+    <line x1="12" y1="2" x2="12" y2="6" />
+    <line x1="12" y1="18" x2="12" y2="22" />
+    <line x1="4.93" y1="4.93" x2="7.76" y2="7.76" />
+    <line x1="16.24" y1="16.24" x2="19.07" y2="19.07" />
+    <line x1="2" y1="12" x2="6" y2="12" />
+    <line x1="18" y1="12" x2="22" y2="12" />
   </svg>
 );
 
 const IconMail = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-    <polyline points="22,6 12,13 2,6"/>
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+    <polyline points="22,6 12,13 2,6" />
   </svg>
 );
 
 // ─── Menu data ─────────────────────────────────────────────────────────────
 const menus = [
-  { label: 'Home',     href: '#home',     Icon: IconHome    },
-  { label: 'Services', href: '#services', Icon: IconStar    },
-  { label: 'About Us', href: '#aboutus',  Icon: IconLeaf    },
-  { label: 'Shop',     href: '#shop',     Icon: IconShop    },
+  { label: 'Home', href: '#home', Icon: IconHome },
+  { label: 'Services', href: '#services', Icon: IconStar },
+  { label: 'About Us', href: '#aboutus', Icon: IconLeaf },
+  { label: 'Shop', href: '#shop', Icon: IconShop },
   { label: 'Sessions', href: '#sessions', Icon: IconCrystal },
-  { label: 'Contact',  href: '#contact',  Icon: IconMail    },
+  { label: 'Contact', href: '#contact', Icon: IconMail },
 ];
 
 const Navbar = () => {
-  const [scrolled, setScrolled]     = useState(false);
-  const [menuOpen, setMenuOpen]     = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
       for (let i = menus.length - 1; i >= 0; i--) {
-        const id  = menus[i].href.replace('#', '');
-        const el  = document.getElementById(id);
+        const id = menus[i].href.replace('#', '');
+        const el = document.getElementById(id);
         if (el && window.scrollY >= el.offsetTop - 120) {
           setActiveSection(id);
           break;
@@ -104,15 +104,15 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#home" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none', flexShrink: 0 }}>
           <svg width="32" height="32" viewBox="0 0 64 64" fill="none" aria-hidden="true">
-            <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="var(--color-primary)"/>
-            <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="var(--color-accent-gold)" opacity="0.85"/>
-            <circle cx="32" cy="38" r="7" fill="white" opacity="0.9"/>
+            <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="var(--color-primary)" />
+            <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="var(--color-accent-gold)" opacity="0.85" />
+            <circle cx="32" cy="38" r="7" fill="white" opacity="0.9" />
           </svg>
           <span style={{
             fontSize: 'clamp(20px, 2.2vw, 26px)', fontWeight: '700',
             color: 'var(--color-primary)', fontFamily: "'Cormorant Garamond', serif",
             letterSpacing: '0.02em',
-          }}>Zealhealing</span>
+          }}>The Tarot Queen</span>
         </a>
 
         {/* Desktop nav links */}
@@ -199,12 +199,12 @@ const Navbar = () => {
           }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
               <svg width="24" height="24" viewBox="0 0 64 64" fill="none">
-                <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="var(--color-primary)"/>
-                <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="var(--color-accent-gold)" opacity="0.85"/>
-                <circle cx="32" cy="38" r="7" fill="white" opacity="0.9"/>
+                <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="var(--color-primary)" />
+                <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="var(--color-accent-gold)" opacity="0.85" />
+                <circle cx="32" cy="38" r="7" fill="white" opacity="0.9" />
               </svg>
               <span style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: '700', fontSize: '20px', color: 'var(--color-primary)' }}>
-                Zealhealing
+                The Tarot Queen
               </span>
             </div>
             <button onClick={closeMenu} aria-label="Close menu" style={{
