@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Outer drop shape — forest emerald -->
+  <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="#1B6B4A"/>
+  <!-- Inner drop — warm gold accent -->
+  <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="#C8A96E" opacity="0.85"/>
+  <!-- Center white highlight -->
+  <circle cx="32" cy="38" r="7" fill="white" opacity="0.9"/>
+</svg>
