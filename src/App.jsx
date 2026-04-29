@@ -54,7 +54,7 @@ function App() {
                   <path d="M32 4C32 4 12 20 12 38C12 49.05 21.17 58 32 58C42.83 58 52 49.05 52 38C52 20 32 4 32 4Z" fill="#C8A96E" />
                   <path d="M32 16C32 16 20 28 20 38C20 44.63 25.37 50 32 50C38.63 50 44 44.63 44 38C44 28 32 16 32 16Z" fill="white" opacity="0.6" />
                 </svg>
-                The Tarot Queen
+                Rehka The Tarot Queen
               </div>
               <p style={{ fontSize: '14px', lineHeight: 1.7, maxWidth: '260px' }}>
                 Guiding souls to peace, clarity, and spiritual wholeness through sacred healing practices.
