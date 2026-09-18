@@ -6,6 +6,7 @@ import About from './modules/landing/About';
 import Shop from './modules/landing/Shop';
 import Session from './modules/landing/Session';
 import Contact from './modules/landing/Contact';
+import TithiCalculator from './modules/landing/TithiCalculator';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -23,6 +24,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <TithiCalculator />
         <About />
         <Shop />
         <Session />
@@ -132,7 +134,7 @@ function App() {
             {/* Services */}
             <div>
               <h4 style={{ color: 'white', fontSize: '14px', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '20px', fontFamily: "'Plus Jakarta Sans', sans-serif" }}>Services</h4>
-              {['Tarot Readings', 'Chakra Healing', 'Pranic Healing', 'Aura Cleansing', 'Spiritual Guidance'].map(link => (
+              {['Tarot Readings', 'Chakra Healing', 'Pranic Healing', 'Aura Cleansing', 'Spiritual Guidance', 'Tithi Calculator'].map(link => (
                 <a key={link} href="#services" style={{ display: 'block', color: 'rgba(255,255,255,0.6)', textDecoration: 'none', fontSize: '14px', marginBottom: '12px', transition: 'var(--transition)' }}
                   onMouseOver={e => e.target.style.color = 'var(--color-accent-gold)'}
                   onMouseOut={e => e.target.style.color = 'rgba(255,255,255,0.6)'}
