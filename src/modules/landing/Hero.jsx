@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import rekhaImg from '../../assets/rekha.jpg';
 
 const trustItems = [
   { icon: '⭐', value: '4.9', label: 'Rating' },
@@ -192,13 +193,13 @@ const Hero = () => {
                 zIndex: 2,
               }}>
                 <img
-                  src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=90"
-                  alt="Spiritual meditation and healing session"
+                  src={rekhaImg}
+                  alt="Rekha The Tarot Queen"
                   style={{
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'center top',
+                    objectPosition: 'center 12%',
                     borderRadius: '48% 48% 6px 6px / 38% 38% 6px 6px',
                     display: 'block',
                   }}

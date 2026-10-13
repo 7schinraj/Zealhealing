@@ -304,7 +304,7 @@ const TithiResult = ({ result, date, name, intent, birthTime, birthPlace, timezo
               🌟 Spiritual Insight for You
             </div>
             <p style={{
-              fontSize: 'clamp(13px, 1.2vw, 15px)', color: '#0F2318',
+              color: '#0F2318',
               fontFamily: "'Cormorant Garamond', serif",
               lineHeight: 1.8, margin: 0, fontStyle: 'italic',
               fontWeight: '500', fontSize: 'clamp(15px, 1.5vw, 18px)',
